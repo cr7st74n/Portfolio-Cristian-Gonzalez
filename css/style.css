@@ -94,9 +94,10 @@ p{
     border-bottom: 9px solid rgb(33, 27, 56);
 }
 
-/* .projects .project-title{
-    background-color: red;
-} */
+.projects .project-title{
+    display: flex;
+    align-items: center;
+}
 /* Adjust Project boxes*/
 .projects .Project{
     display: flex;
