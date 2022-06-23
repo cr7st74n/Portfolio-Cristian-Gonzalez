@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+html, body{
+    height: 140%;
+}
+header{
+    display: flex;
+}
+header.navigation{
+    padding: 25px 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:slateblue;
+}
+
+.navigation h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.navigation nav .nav-link{
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgb(207, 198, 243);
+}
+aside{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 9px solid rgb(33, 27, 56);
+    height: 47%;
+    background-color: rgb(59, 37, 139);
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(33, 27, 56);
+    display: flex;
+    height: 5%;
+}
+
+#Biography{
+    display: flex;
+    flex: 4;
+    border-top: 9px solid rgb(33, 27, 56);
+    border-bottom: 9px solid rgb(33, 27, 56);
+    height: 47%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#projects{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 37;
+    width: 100%;
+}
+
+#contact-us{
+
+    height: 15%;
+}
+
+
+
