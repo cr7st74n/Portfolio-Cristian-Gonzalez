@@ -2,15 +2,18 @@
     padding: 0px;
     margin: 0px;
     font-family:sans-serif;
+    box-sizing: border-box;
 }
 
 html, body{
     height: 140%;
 }
 header{
-    display: flex;
+    text-align: center;
+    padding: 20px;
 }
 header.navigation{
+    display: flex;
     padding: 25px 2%;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +52,26 @@ aside{
 }
 
 footer{
+    padding: 15px;
     background-color: rgb(33, 27, 56);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(224, 217, 243);
     height: 5%;
+
+}
+
+h2{
+    padding: 15px 2%;
+    display: flex;
+    align-items: center;
+}
+p{
+    padding: 15px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #Biography{
@@ -62,22 +82,47 @@ footer{
     height: 47%;
     padding: 20px;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 #projects{
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content:space-around;
     height: 37;
     width: 100%;
+    border-bottom: 9px solid rgb(33, 27, 56);
 }
+
+#projects .Project{
+    border: 3px double rgb(33, 27, 56);
+    border-radius: 10px;
+    padding: 10px;
+    flex:0 0 16% ;
+    background-color:slateblue;
+}
+  .Project img{
+    margin-left: 86px;
+  }
+  .Project p{
+    text-align: center;
+  }
 
 #contact-us{
-
+    width: 100%;
     height: 15%;
 }
+
+#contact-us ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
 
 
 
