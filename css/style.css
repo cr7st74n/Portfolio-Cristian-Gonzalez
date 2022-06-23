@@ -9,6 +9,7 @@
 html, body{
     height:auto;
 }
+
 header{
     text-align: center;
     padding: 20px;
@@ -66,17 +67,15 @@ footer{
 
 h2{
     padding: 15px 2%;
-    display: flex;
-    align-items: center;
 }
 p{
     padding: 15px 2%;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     align-items: center;
 }
 
-#Biography{
+.biography{
     display: flex;
     flex: 4;
     border-top: 9px solid rgb(33, 27, 56);
@@ -85,7 +84,7 @@ p{
     flex-direction: column;
 }
 
-#projects{
+.projects{
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -95,24 +94,31 @@ p{
     border-bottom: 9px solid rgb(33, 27, 56);
 }
 
-#projects .Project{
+.projects.project-title{
+    background-color: red;
+}
+/* Adjust Project boxes*/
+.projects .Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 3px double rgb(33, 27, 56);
     border-radius: 10px;
     padding: 10px;
     flex:0 0 16% ;
     background-color:slateblue;
 }
+
   .Project img{
-    margin-left: 86px;
     transition: 2s;
+    background-color:rgb(224, 217, 243);
+    border-radius: 15px;
   }
 
   .Project img:hover{
     transform: scale(1.5);
 
   }
-
-
   .Project p{
     text-align: center;
   }
