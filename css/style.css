@@ -3,6 +3,7 @@
     margin: 0px;
     font-family:sans-serif;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html, body{
@@ -49,6 +50,7 @@ aside{
     background-color: rgb(59, 37, 139);
     align-items: center;
     justify-content: space-around;
+    color: rgb(224, 217, 243);
 }
 
 footer{
@@ -115,9 +117,22 @@ p{
 }
 
 #contact-us ul{
+    font-size: 30px;
     display: flex;
+    height: 100%;
+    align-items: center;
     justify-content: space-around;
 }
+
+#contact-us ul li{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #contact-us ul a{
+    color:rgb(33, 27, 56);
+    text-decoration: none;
+ }
+
 
 
 
