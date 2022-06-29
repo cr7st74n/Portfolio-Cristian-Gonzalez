@@ -1,4 +1,4 @@
-# Homework-2
+# Development with Cristian
 Professional Portfolio
 Link to my page: https://cr7st74n.github.io/Homework-2/
 This is the first web site model that I built for my personal Portfolio, It is been challenging but fun as well. Loking forward to keep working on it and make some updates
