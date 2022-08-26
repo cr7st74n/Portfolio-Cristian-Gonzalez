@@ -1,0 +1,34 @@
+
+#contact-us{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 2%;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+#contact-us ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    font-size: 30px;
+}
+
+#contact-us ul li{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #contact-us ul a{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 25px 2%;
+    color:rgb(33, 27, 56);
+    text-decoration: none;
+    font-size: 20px;
+ }

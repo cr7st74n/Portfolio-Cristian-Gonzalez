@@ -1,0 +1,39 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-around;
+    height: 37;
+    width: 100%;
+    border-bottom: 9px solid rgb(33, 27, 56);
+}
+
+.projects .project-title{
+    display: flex;
+    align-items: center;
+}
+/* Adjust Project boxes*/
+.projects .Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px double rgb(33, 27, 56);
+    border-radius: 10px;
+    padding: 10px;
+    flex:0 0 16% ;
+    background-color:slateblue;
+}
+
+  .Project img{
+    transition: 2s;
+    background-color:rgb(224, 217, 243);
+    border-radius: 15px;
+  }
+
+  .Project img:hover{
+    transform: scale(1.5);
+
+  }
+  .Project p{
+    text-align: center;
+  }
