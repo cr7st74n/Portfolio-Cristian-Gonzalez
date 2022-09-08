@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'> 
-      <FaLinkedin />
-      <FaGithub/>
-      <FaMailBulk/>
+      <a href="https://www.linkedin.com/in/cristian-gonzalez-romero-7566571b0/"><FaLinkedin /></a>
+      <a href="https://github.com/cr7st74n"><FaGithub/></a>
+      <a href="#"><FaMailBulk/></a>
       </div>
       <p> &copy; 2022 All rights reserved</p>
     </div>

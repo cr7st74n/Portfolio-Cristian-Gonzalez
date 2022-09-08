@@ -15,9 +15,7 @@ export default function Home() {
             <h2>My name is Cristian Gonzalez</h2>
             <div className='prompt'>
                 <p>I am an Ecuadorian immigrant that come to United States to study and work with technology and investigation in different fields to help and improve the human life, it could be in several ways such as in Medicine, or even working in other areas including technology as the main idea for all my objectives and goals. </p>
-                <FaLinkedin />
-                <FaMailBulk />
-                <FaGithub />
+
             </div>
             <div className="skills">
         <h1> Skills</h1>

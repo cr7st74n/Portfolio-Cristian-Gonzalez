@@ -1,6 +1,7 @@
-import React from 'react'
-import "../styles/Projects.css"
-import imgGym from "../styles/Img/project gym.png"
+import React from 'react';
+import "../styles/Projects.css";
+import imgGym from "../styles/Img/project gym.png";
+import imgBu from "../styles/Img/project_B.png"
 
 export default function Projects() {
   return (
@@ -16,9 +17,12 @@ export default function Projects() {
     </section>
 
     <section class="Project">
-        <header class="header-project">Projects 2</header>
-        {/* <img src="./css/Img/boombox.svg" alt="icon" height="100" width="100"> */}
-          <p>Lorem ipsum dolor sit amet consectetur</p>
+        <header class="header-project">Cobras Finances</header>
+        <div className='container'>
+          <img src={imgBu}/>
+        </div>
+        <a href='https://github.com/cr7st74n/Purpel-Cobra-Finances'>Cobras Finances</a>
+          <p>This is an awesome project that is going to help to calculate your budget.</p>
     </section>
 
     <section class="Project">
