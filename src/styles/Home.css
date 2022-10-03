@@ -60,6 +60,16 @@
   .skills h1 {
     color: #e9d35b;
   }
+  .Resume .res {
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #e9d35b;
+  }
   
   .skills .list {
     list-style: none;

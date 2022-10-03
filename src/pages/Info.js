@@ -3,7 +3,7 @@ import "../styles/Info.css"
 
 export default function Info() {
   return (
-  <div id="contact-us" clase="contact-us">
+  <div id="contact-us" className="contact-us">
     <h2>Contact us</h2>
     <ul>
         <li>Email:</li>

@@ -14,10 +14,10 @@ export default function Home() {
             </div>
             <h2>My name is Cristian Gonzalez</h2>
             <div className='prompt'>
-                <p>I am an Ecuadorian immigrant that come to United States to study and work with technology and investigation in different fields to help and improve the human life, it could be in several ways such as in Medicine, or even working in other areas including technology as the main idea for all my objectives and goals. </p>
+                <p>My name is Cristian Gonzalez, I am a Full stack web developer with passion in UI/UX design. Recently earned a certificate in full stack development from the University of Minnesota Coding bootcamp, with experience in cooperative work to develop competitive and responsible projects. The most important skills are HTML, CSS, JavaScript, React.js, Node.js, and MySQL. Known for the attention in every detail and always committed to work and improve in every part of my project. I applied all the abilities that I have to build a web-app with the latest technologies. I worked with a team of 4 to develop a single-page MERN app that provides the most accurate information about how to adjust your budget and save money based on the information provided by the user. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
 
             </div>
-            <div className="skills">
+        <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
@@ -38,6 +38,9 @@ export default function Home() {
             <span>JavaScript, Java, Python, C#</span>
           </li>
         </ol>
+      </div>
+      <div className='Resume'>
+        <a className='res' href="https://docs.google.com/document/d/1NrXpjE3ihwOpx1EHgfWhnRPKHUsNSPJAX54KD2dRaMA/view?usp=sharing">Resume</a>
       </div>
     </div>
     
