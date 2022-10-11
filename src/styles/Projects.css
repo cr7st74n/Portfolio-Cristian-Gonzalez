@@ -12,8 +12,14 @@
     display: flex;
     align-items: center;
 }
+.projects .header-project{
+  margin: 10%;
+  color: white;
+  font-size: 30px;
+}
 /* Adjust Project boxes*/
 .projects .Project{
+    width: 180%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,9 +31,12 @@
 }
 
   .Project img{
+    height: 190px;
+    width: 140%;
     transition: 2s;
+    border: 5px double;
     background-color:rgb(224, 217, 243);
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   .Project img:hover{

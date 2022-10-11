@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/Info.css"
+import ImgParche from "../styles/Img/Full_Stack_parche.png"
 
 export default function Info() {
   return (
@@ -13,6 +14,7 @@ export default function Info() {
         <li>GitHub:</li>
         <a href="https://github.com/cr7st74n">cr7st74n</a>
     </ul>
-</div>
+    <div className='badge'> <img src={ImgParche}/></div>
+  </div>
   )
 }
