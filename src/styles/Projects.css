@@ -30,6 +30,11 @@
     background-color:slateblue;
 }
 
+.Project .linkPage{
+  text-decoration:none;
+  color: #e9d35b;
+}
+
   .Project img{
     height: 190px;
     width: 140%;

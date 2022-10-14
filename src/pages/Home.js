@@ -25,7 +25,7 @@ export default function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, BootStrap, Materialize.
+              React.js, HTML, CSS, BootStrap, Materialize.
             </span>
           </li>
           <li className="item">
