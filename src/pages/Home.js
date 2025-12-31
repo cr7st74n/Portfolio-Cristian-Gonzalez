@@ -42,7 +42,7 @@ export default function Home() {
         </ol>
       </div>
       <div className='Resume'>
-        <a className='res' href="https://docs.google.com/document/d/1NrXpjE3ihwOpx1EHgfWhnRPKHUsNSPJAX54KD2dRaMA/view?usp=sharing">Resume</a>
+        <a className='res' href="https://docs.google.com/document/d/1QhCUS6vOhQ20iG49J1aHsahSSc6OaL7G8-uaIrzHTAo/edit?usp=sharing">Resume</a>
       </div>
     </div>
     
